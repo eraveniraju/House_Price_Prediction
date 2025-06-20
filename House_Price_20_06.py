@@ -6,7 +6,7 @@ import joblib
 model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title("🏠 House Price Prediction Ap")
+st.title("🏠 House Price Prediction")
 st.subheader("Enter the details below to predict the house price")
 
 # User input
